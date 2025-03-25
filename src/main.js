@@ -81,7 +81,7 @@ async function handleRequest(oRequest, destination, iteration = 0) {
   response.headers.set('Access-Control-Allow-Origin', '*');
   response.headers.set('Access-Control-Expose-Headers', '*');
   response.headers.set('Content-Type', 'text/javascript; charset=utf-8');
-  
+
   const cookiesToSet = response.headers.get('Set-Cookie');
 
   // Transfer Set-Cookie to X-Set-Cookie
