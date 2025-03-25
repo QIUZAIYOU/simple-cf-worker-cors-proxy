@@ -1,4 +1,4 @@
-name = "simple-cf-worker-cors-proxy"
+name = "cors"
 main = "./dist/worker.js"
 compatibility_date = "2024-03-01"
 
