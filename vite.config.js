@@ -6,6 +6,7 @@ module.exports = defineConfig({
   plugins: [eslint()],
   build: {
     minify: false,
+    outDir: 'dist', // 新增输出目录配置
     lib: {
       entry: path.resolve(__dirname, 'src/main.js'),
       name: 'worker',
